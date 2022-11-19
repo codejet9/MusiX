@@ -10,7 +10,7 @@
 
 9) Get a youtube v3 api key using your google account. You can refer to this video https://youtu.be/N18czV5tj5o
 
-10) Paste the api key in .env file in this folder. api_key="PASTE_YOUR_API_KEY". If .env file is not visible check show hidden file option
+10) Paste the api key in .env file present in this folder. api_key="PASTE_YOUR_API_KEY". If .env file is not visible check show hidden file option
 
 11) Restart the terminal and type "musix" and click enter.
 12) You can open terminal in any folder to start the program.
