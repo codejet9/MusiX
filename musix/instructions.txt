@@ -3,7 +3,7 @@
 3) Run VLC and make sure it works
 4) Open terminal in this folder
 5) Execute this command, "pip install --editable ."
-6) Now go to "C:\Users\USERNAME\AppData\Local\Programs\Python\Python39\Lib\site-packages\pafy" locate backend_youtube_dl.py in this folder and comment lines 53 and 54 which are related like and dislike counts.
+6) Now go to "C:\Users\USERNAME\AppData\Local\Programs\Python\Python39\Lib\site-packages\pafy\locate backend_youtube_dl.py" in this folder and comment lines 53 and 54 which are related like and dislike counts.
 7) Get a youtube v3 api key using your google account. You can refer to this video, https://youtu.be/N18czV5tj5o
 8) Paste the api key in .env file present in this folder. api_key="PASTE_YOUR_API_KEY"
 9) Restart the terminal and type "musix" and click enter.
