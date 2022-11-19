@@ -3,5 +3,6 @@ A command line music streamer
 
 
 
-https://user-images.githubusercontent.com/108319876/202859787-fe218172-899a-45eb-8bb1-9afa9aba67c0.mp4
+
+https://user-images.githubusercontent.com/108319876/202860781-28510442-14a4-4d6e-b999-86940c8b5ea3.mp4
 
