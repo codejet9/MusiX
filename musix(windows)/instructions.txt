@@ -9,4 +9,6 @@
 9) Restart the terminal and type "musix" and click enter.
 10) You can open terminal in any folder to start the program.
 
+11) To Uninstall: pip uninstall musix
+
 Enjoy :)
