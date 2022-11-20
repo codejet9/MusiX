@@ -14,3 +14,10 @@ In windows version warnings are frequently shown by VLC on command line. Could'n
 ## Controls
 - [space] to pause/play
 - ctrl+c to quit
+
+## Working:
+- User input the song name
+- Using youtube v3 API, search results are produced
+- User selects the song
+- From the JSON data sent by the API, URL and other data like video title and duration are extracted
+- Using `pafy` and `python-vlc` audio is extracted and streamed
