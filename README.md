@@ -27,4 +27,4 @@ In windows version warnings are frequently shown by VLC on command line. Could'n
 - Autoplay is implemented using API's `relatedVideo` query. It sends the video related to current video. In my testing, I experienced the autoplay stuck in an endless loop between two videos. Will try to implement a better autoplay code in future!
 - The goal was to make a simple, light-weight and less memory consuming terminal based music streamer.
 
-If you face any issues or observe high CPU or RAM consumption please let me know. In one of the earlier uploads the CPU consumption was too high because I was printing few lines in each loop. Now, I removed it and optimised the code. The CPU consumption has dropped by almost 50%.
+If you face any issues or observe high CPU or RAM consumption please let me know. In one of the earlier uploads the CPU consumption was too high because I was printing few lines in every loop. Now, I removed it and print them olny once and optimised the code. The CPU consumption has dropped by almost 50%.
