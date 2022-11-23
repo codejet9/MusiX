@@ -6,7 +6,7 @@
 6) "pip install --editable ."
 7) "sudo pip install --editable ." If you want "musix" as a command executable from anywhere
 
-8) Now go to "/home/USERNAME/.local/lib/python3.9/site-packages/pafy/locate backend_youtube_dl.py" comment lines 53 and 54 which are related like and dislike counts.
+8) Now go to "/home/USERNAME/.local/lib/python3.9/site-packages/pafy/backend_youtube_dl.py" comment lines 53 and 54 which are related like and dislike counts.
 
 9) Get a youtube v3 api key using your google account. You can refer to this video, https://youtu.be/N18czV5tj5o
 
