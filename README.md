@@ -1,5 +1,6 @@
 # MusiX
-A command line music streamer
+A command line music streamer.
+
 The goal was to make a simple, light-weight and less memory consuming terminal based music streamer.
 
 
