@@ -27,4 +27,7 @@ In windows version warnings are frequently shown by VLC on command line. Could'n
 - Another good option was to make a TUI to implement the controls.
 - Autoplay is implemented using API's `relatedVideo` query. It sends the video related to current video. In my testing, I experienced the autoplay stuck in an endless loop between two videos. Will try to implement a better autoplay code in future!
 
-If you face any issues or observe high CPU or RAM consumption please let me know. In one of the earlier uploads the CPU consumption was too high because I was printing few lines in every loop. Now, I removed it and print them olny once and optimised the code. The CPU consumption has dropped by almost 50%.
+### UPDATE:
+- If you face any issues or observe high CPU or RAM consumption please let me know. In one of the earlier uploads the CPU consumption was too high because I was printing few lines in every loop. Now, I removed it and print them olny once and optimised the code. The CPU consumption has dropped by almost 50%.
+- Changed installation method for linux. Previous installation method was more prone to dependency conflicts and was harmful(ex: packages like ipython3 stopped working). Solved this using `pipx`. Will try to change for windows as well. Till now didn't face any problems with windows.
+- The demos were recorded before the above two updates.
