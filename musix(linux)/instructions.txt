@@ -2,11 +2,16 @@
 2) sudo apt-get install vlc
 3) sudo apt-get install gcc
 4) Run VLC and make sure it works
-5) Open terminal in this folder
-6) "pip install --editable ."
-7) "sudo pip install --editable ." If you want "musix" as a command executable from anywhere
 
-8) Now go to "/home/USERNAME/.local/lib/python3.9/site-packages/pafy/backend_youtube_dl.py" comment lines 53 and 54 which are related like and dislike counts.
+5) Install pipx. You can find how to install here, https://github.com/pypa/pipx#on-linux-install-via-pip-requires-pip-190-or-later.
+pipx is similar to pip but with all the dependencies in a separate virtual environment, so that there are no conflicts.
+
+6) Open terminal in this folder
+7) "pipx install --editable ." Now our application is installed in a separate and safe virtual environment.
+
+8) Now go to "/home/USERNAME/.local/pipx/venvs/musix/lib/python3.X/site-packages/pafy/backend_youtube_dl.py" comment lines 53 and 54 which are related like and dislike counts.
+
+9) For python3.10 users, go to "/home/USERNAME/.local/pipx/venvs/musix/lib/python3.10/site-packages/prompt_toolkit/styles/from_dict.py" change "from collections import Mapping" to "form collections.abc import Mapping"
 
 9) Get a youtube v3 api key using your google account. You can refer to this video, https://youtu.be/N18czV5tj5o
 
@@ -15,6 +20,5 @@
 11) Restart the terminal and type "musix" and click enter.
 12) You can open terminal in any folder to start the program.
 
-13) For python3.10 users, go to "/home/USERNAME/.local/lib/python3.10/site-packages/prompt_toolkit/styles/from_dict.py" change "from collections import Mapping" to "form collections.abc import Mapping"
 
 Enjoy :)
