@@ -20,5 +20,6 @@ pipx is similar to pip but with all the dependencies in a separate virtual envir
 11) Restart the terminal and type "musix" and click enter.
 12) You can open terminal in any folder to start the program.
 
+13) You can uninstall using "pipx uninstall musix"
 
 Enjoy :)
